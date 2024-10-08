@@ -1,3 +1,4 @@
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/test.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/hello.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
