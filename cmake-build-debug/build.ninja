@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/software/ClionProjects/Algorithm/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target CountingInversionProblem
+
+
+#############################################
+# Order-only phony target for CountingInversionProblem
+
+build cmake_object_order_depends_target_CountingInversionProblem: phony || CMakeFiles/CountingInversionProblem.dir
+
+build CMakeFiles/CountingInversionProblem.dir/algorithm-homework/CountingInversionProblem.cpp.obj: CXX_COMPILER__CountingInversionProblem_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/CountingInversionProblem.cpp || cmake_object_order_depends_target_CountingInversionProblem
+  DEP_FILE = CMakeFiles\CountingInversionProblem.dir\algorithm-homework\CountingInversionProblem.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CountingInversionProblem.dir
+  OBJECT_FILE_DIR = CMakeFiles\CountingInversionProblem.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CountingInversionProblem
+
+
+#############################################
+# Link the executable CountingInversionProblem.exe
+
+build CountingInversionProblem.exe: CXX_EXECUTABLE_LINKER__CountingInversionProblem_Debug CMakeFiles/CountingInversionProblem.dir/algorithm-homework/CountingInversionProblem.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CountingInversionProblem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CountingInversionProblem.exe
+  TARGET_IMPLIB = libCountingInversionProblem.dll.a
+  TARGET_PDB = CountingInversionProblem.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target test
 
 
@@ -167,6 +200,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
+build CountingInversionProblem: phony CountingInversionProblem.exe
+
 build hello: phony hello.exe
 
 build test: phony test.exe
@@ -179,7 +214,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/software/ClionProjects/Algorithm/cmake-build-debug
 
-build all: phony test.exe CMakeCXXCompilerId.exe hello.exe
+build all: phony CountingInversionProblem.exe test.exe CMakeCXXCompilerId.exe hello.exe
 
 # =============================================================================
 # Built-in targets
