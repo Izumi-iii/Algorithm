@@ -74,37 +74,169 @@ build CountingInversionProblem.exe: CXX_EXECUTABLE_LINKER__CountingInversionProb
   TARGET_PDB = CountingInversionProblem.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test
+# Object build statements for EXECUTABLE target P1271
 
 
 #############################################
-# Order-only phony target for test
+# Order-only phony target for P1271
 
-build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+build cmake_object_order_depends_target_P1271: phony || CMakeFiles/P1271.dir
 
-build CMakeFiles/test.dir/basical-practice/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug D$:/software/ClionProjects/Algorithm/basical-practice/test.cpp || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles\test.dir\basical-practice\test.cpp.obj.d
+build CMakeFiles/P1271.dir/algorithm-homework/P1271.cpp.obj: CXX_COMPILER__P1271_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/P1271.cpp || cmake_object_order_depends_target_P1271
+  DEP_FILE = CMakeFiles\P1271.dir\algorithm-homework\P1271.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test.dir
-  OBJECT_FILE_DIR = CMakeFiles\test.dir\basical-practice
+  OBJECT_DIR = CMakeFiles\P1271.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1271.dir\algorithm-homework
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test
+# Link build statements for EXECUTABLE target P1271
 
 
 #############################################
-# Link the executable test.exe
+# Link the executable P1271.exe
 
-build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/basical-practice/test.cpp.obj
+build P1271.exe: CXX_EXECUTABLE_LINKER__P1271_Debug CMakeFiles/P1271.dir/algorithm-homework/P1271.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_DIR = CMakeFiles\P1271.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = test.exe
-  TARGET_IMPLIB = libtest.dll.a
-  TARGET_PDB = test.exe.dbg
+  TARGET_FILE = P1271.exe
+  TARGET_IMPLIB = libP1271.dll.a
+  TARGET_PDB = P1271.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T528356_A
+
+
+#############################################
+# Order-only phony target for T528356_A
+
+build cmake_object_order_depends_target_T528356_A: phony || CMakeFiles/T528356_A.dir
+
+build CMakeFiles/T528356_A.dir/algorithm-homework/T528356_A.cpp.obj: CXX_COMPILER__T528356_A_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/T528356_A.cpp || cmake_object_order_depends_target_T528356_A
+  DEP_FILE = CMakeFiles\T528356_A.dir\algorithm-homework\T528356_A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T528356_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\T528356_A.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T528356_A
+
+
+#############################################
+# Link the executable T528356_A.exe
+
+build T528356_A.exe: CXX_EXECUTABLE_LINKER__T528356_A_Debug CMakeFiles/T528356_A.dir/algorithm-homework/T528356_A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T528356_A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T528356_A.exe
+  TARGET_IMPLIB = libT528356_A.dll.a
+  TARGET_PDB = T528356_A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T528356_C
+
+
+#############################################
+# Order-only phony target for T528356_C
+
+build cmake_object_order_depends_target_T528356_C: phony || CMakeFiles/T528356_C.dir
+
+build CMakeFiles/T528356_C.dir/algorithm-homework/T528356_C.cpp.obj: CXX_COMPILER__T528356_C_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/T528356_C.cpp || cmake_object_order_depends_target_T528356_C
+  DEP_FILE = CMakeFiles\T528356_C.dir\algorithm-homework\T528356_C.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T528356_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\T528356_C.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T528356_C
+
+
+#############################################
+# Link the executable T528356_C.exe
+
+build T528356_C.exe: CXX_EXECUTABLE_LINKER__T528356_C_Debug CMakeFiles/T528356_C.dir/algorithm-homework/T528356_C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T528356_C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T528356_C.exe
+  TARGET_IMPLIB = libT528356_C.dll.a
+  TARGET_PDB = T528356_C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T528357_B
+
+
+#############################################
+# Order-only phony target for T528357_B
+
+build cmake_object_order_depends_target_T528357_B: phony || CMakeFiles/T528357_B.dir
+
+build CMakeFiles/T528357_B.dir/algorithm-homework/T528357_B.cpp.obj: CXX_COMPILER__T528357_B_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/T528357_B.cpp || cmake_object_order_depends_target_T528357_B
+  DEP_FILE = CMakeFiles\T528357_B.dir\algorithm-homework\T528357_B.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T528357_B.dir
+  OBJECT_FILE_DIR = CMakeFiles\T528357_B.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T528357_B
+
+
+#############################################
+# Link the executable T528357_B.exe
+
+build T528357_B.exe: CXX_EXECUTABLE_LINKER__T528357_B_Debug CMakeFiles/T528357_B.dir/algorithm-homework/T528357_B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T528357_B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T528357_B.exe
+  TARGET_IMPLIB = libT528357_B.dll.a
+  TARGET_PDB = T528357_B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TriominoPuzzle
+
+
+#############################################
+# Order-only phony target for TriominoPuzzle
+
+build cmake_object_order_depends_target_TriominoPuzzle: phony || CMakeFiles/TriominoPuzzle.dir
+
+build CMakeFiles/TriominoPuzzle.dir/algorithm-homework/TriominoPuzzle.cpp.obj: CXX_COMPILER__TriominoPuzzle_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/TriominoPuzzle.cpp || cmake_object_order_depends_target_TriominoPuzzle
+  DEP_FILE = CMakeFiles\TriominoPuzzle.dir\algorithm-homework\TriominoPuzzle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TriominoPuzzle.dir
+  OBJECT_FILE_DIR = CMakeFiles\TriominoPuzzle.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TriominoPuzzle
+
+
+#############################################
+# Link the executable TriominoPuzzle.exe
+
+build TriominoPuzzle.exe: CXX_EXECUTABLE_LINKER__TriominoPuzzle_Debug CMakeFiles/TriominoPuzzle.dir/algorithm-homework/TriominoPuzzle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TriominoPuzzle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TriominoPuzzle.exe
+  TARGET_IMPLIB = libTriominoPuzzle.dll.a
+  TARGET_PDB = TriominoPuzzle.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -172,6 +304,39 @@ build hello.exe: CXX_EXECUTABLE_LINKER__hello_Debug CMakeFiles/hello.dir/hello.c
   TARGET_IMPLIB = libhello.dll.a
   TARGET_PDB = hello.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug D$:/software/ClionProjects/Algorithm/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -202,6 +367,16 @@ build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build CountingInversionProblem: phony CountingInversionProblem.exe
 
+build P1271: phony P1271.exe
+
+build T528356_A: phony T528356_A.exe
+
+build T528356_C: phony T528356_C.exe
+
+build T528357_B: phony T528357_B.exe
+
+build TriominoPuzzle: phony TriominoPuzzle.exe
+
 build hello: phony hello.exe
 
 build test: phony test.exe
@@ -214,7 +389,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/software/ClionProjects/Algorithm/cmake-build-debug
 
-build all: phony CountingInversionProblem.exe test.exe CMakeCXXCompilerId.exe hello.exe
+build all: phony CountingInversionProblem.exe P1271.exe T528356_A.exe T528356_C.exe T528357_B.exe TriominoPuzzle.exe CMakeCXXCompilerId.exe hello.exe test.exe
 
 # =============================================================================
 # Built-in targets

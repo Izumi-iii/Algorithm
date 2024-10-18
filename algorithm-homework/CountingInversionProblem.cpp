@@ -14,7 +14,7 @@ int MergeAndSort(vector<int>& arr,vector<int>& temp,int left,int mid,int right) 
     int k = left;//合并后的数组的起始点
     int j = mid+1;//定义右子数组的起始点
 
-    int right = mid-1;
+
     while(  i<=mid && j<=right) {
         if(arr[i]<= arr[j]) {
             temp[k]=arr[i];//注意这里k的作用，我们将较小的元素放入我们一开始定义的空数组temp中
@@ -22,7 +22,7 @@ int MergeAndSort(vector<int>& arr,vector<int>& temp,int left,int mid,int right) 
             i++;//i向后移位 之后的移位操作不再注释
         }else {
             temp[k]=arr[j];
-            count += mid-i+1;//这一步很重要，我们把右子数组中比左子数组中当前元素小的元素个数，加到count中，
+            count += (mid-i+1);//这一步很重要，我们把右子数组中比左子数组中当前元素小的元素个数，加到count中，
                              //因为此时右子数组中元素比左子数组中当前元素小，所以此时左子数组中当前元素和右子数组中元素构成逆序对
             k++;
             j++;
@@ -55,7 +55,7 @@ int MergeAndSort(vector<int>& arr,vector<int>& temp,int left,int mid,int right) 
 
 
 //利用递归思想拆分数组，并调用MergeAndSort方法计数逆序对个数  注意理解递归思想在这里面的实现
-int MergeCountAndSort(vector<int> &arr,vector<int>& temp,int left,int right) {
+int MergeCountAndSort(vector<int>& arr,vector<int>& temp,int left,int right) {
     int count = 0 ;
 
     //判断递归结束的条件，左右指针重合的时候，即数组中只有一个元素
@@ -72,7 +72,7 @@ int MergeCountAndSort(vector<int> &arr,vector<int>& temp,int left,int right) {
 
         //合并两个有序数组，并计算 两个部分总的 逆序对个数
         //这里也是本题中递归的思想的重点 好好想一想这三行代码的执行先后逻辑！
-        count += MergeAndSort(arr,temp,left,mid+1,right);
+        count += MergeAndSort(arr,temp,left,mid,right);
 
 
     }

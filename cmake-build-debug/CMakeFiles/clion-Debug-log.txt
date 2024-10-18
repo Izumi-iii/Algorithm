@@ -1,8 +1,13 @@
 "D:\software\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/software/CLion 2024.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\software\ClionProjects\Algorithm -B D:\software\ClionProjects\Algorithm\cmake-build-debug
     -- src/CountingInversionProblem.cpp will be compiled to bin/CountingInversionProblem
-    -- src/test.cpp will be compiled to bin/test
+    -- src/P1271.cpp will be compiled to bin/P1271
+    -- src/T528356_A.cpp will be compiled to bin/T528356_A
+    -- src/T528356_C.cpp will be compiled to bin/T528356_C
+    -- src/T528357_B.cpp will be compiled to bin/T528357_B
+    -- src/TriominoPuzzle.cpp will be compiled to bin/TriominoPuzzle
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/hello.cpp will be compiled to bin/hello
+    -- src/test.cpp will be compiled to bin/test
 -- Configuring done (0.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/software/ClionProjects/Algorithm/cmake-build-debug
