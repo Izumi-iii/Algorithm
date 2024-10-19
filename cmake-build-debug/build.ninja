@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/software/ClionProjects/Algorithm/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target B3653
+
+
+#############################################
+# Order-only phony target for B3653
+
+build cmake_object_order_depends_target_B3653: phony || CMakeFiles/B3653.dir
+
+build CMakeFiles/B3653.dir/algorithm-homework/B3653.cpp.obj: CXX_COMPILER__B3653_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/B3653.cpp || cmake_object_order_depends_target_B3653
+  DEP_FILE = CMakeFiles\B3653.dir\algorithm-homework\B3653.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\B3653.dir
+  OBJECT_FILE_DIR = CMakeFiles\B3653.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target B3653
+
+
+#############################################
+# Link the executable B3653.exe
+
+build B3653.exe: CXX_EXECUTABLE_LINKER__B3653_Debug CMakeFiles/B3653.dir/algorithm-homework/B3653.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\B3653.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = B3653.exe
+  TARGET_IMPLIB = libB3653.dll.a
+  TARGET_PDB = B3653.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CountingInversionProblem
 
 
@@ -105,6 +138,39 @@ build P1271.exe: CXX_EXECUTABLE_LINKER__P1271_Debug CMakeFiles/P1271.dir/algorit
   TARGET_FILE = P1271.exe
   TARGET_IMPLIB = libP1271.dll.a
   TARGET_PDB = P1271.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T1428
+
+
+#############################################
+# Order-only phony target for T1428
+
+build cmake_object_order_depends_target_T1428: phony || CMakeFiles/T1428.dir
+
+build CMakeFiles/T1428.dir/algorithm-homework/T1428.cpp.obj: CXX_COMPILER__T1428_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/T1428.cpp || cmake_object_order_depends_target_T1428
+  DEP_FILE = CMakeFiles\T1428.dir\algorithm-homework\T1428.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T1428.dir
+  OBJECT_FILE_DIR = CMakeFiles\T1428.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T1428
+
+
+#############################################
+# Link the executable T1428.exe
+
+build T1428.exe: CXX_EXECUTABLE_LINKER__T1428_Debug CMakeFiles/T1428.dir/algorithm-homework/T1428.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T1428.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T1428.exe
+  TARGET_IMPLIB = libT1428.dll.a
+  TARGET_PDB = T1428.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target T528356_A
@@ -239,6 +305,39 @@ build TriominoPuzzle.exe: CXX_EXECUTABLE_LINKER__TriominoPuzzle_Debug CMakeFiles
   TARGET_PDB = TriominoPuzzle.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target aaa
+
+
+#############################################
+# Order-only phony target for aaa
+
+build cmake_object_order_depends_target_aaa: phony || CMakeFiles/aaa.dir
+
+build CMakeFiles/aaa.dir/algorithm-homework/aaa.cpp.obj: CXX_COMPILER__aaa_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/aaa.cpp || cmake_object_order_depends_target_aaa
+  DEP_FILE = CMakeFiles\aaa.dir\algorithm-homework\aaa.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aaa.dir
+  OBJECT_FILE_DIR = CMakeFiles\aaa.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aaa
+
+
+#############################################
+# Link the executable aaa.exe
+
+build aaa.exe: CXX_EXECUTABLE_LINKER__aaa_Debug CMakeFiles/aaa.dir/algorithm-homework/aaa.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\aaa.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = aaa.exe
+  TARGET_IMPLIB = libaaa.dll.a
+  TARGET_PDB = aaa.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
@@ -363,11 +462,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build B3653: phony B3653.exe
+
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build CountingInversionProblem: phony CountingInversionProblem.exe
 
 build P1271: phony P1271.exe
+
+build T1428: phony T1428.exe
 
 build T528356_A: phony T528356_A.exe
 
@@ -376,6 +479,8 @@ build T528356_C: phony T528356_C.exe
 build T528357_B: phony T528357_B.exe
 
 build TriominoPuzzle: phony TriominoPuzzle.exe
+
+build aaa: phony aaa.exe
 
 build hello: phony hello.exe
 
@@ -389,7 +494,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/software/ClionProjects/Algorithm/cmake-build-debug
 
-build all: phony CountingInversionProblem.exe P1271.exe T528356_A.exe T528356_C.exe T528357_B.exe TriominoPuzzle.exe CMakeCXXCompilerId.exe hello.exe test.exe
+build all: phony B3653.exe CountingInversionProblem.exe P1271.exe T1428.exe T528356_A.exe T528356_C.exe T528357_B.exe TriominoPuzzle.exe aaa.exe CMakeCXXCompilerId.exe hello.exe test.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,9 +1,12 @@
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/B3653.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/CountingInversionProblem.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/P1271.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/T1428.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/T528356_A.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/T528356_C.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/T528357_B.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/TriominoPuzzle.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/aaa.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/hello.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/test.dir
