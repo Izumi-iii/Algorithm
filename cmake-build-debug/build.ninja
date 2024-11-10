@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/software/ClionProjects/Algorithm/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target newcoder_month106_A
+
+
+#############################################
+# Order-only phony target for newcoder_month106_A
+
+build cmake_object_order_depends_target_newcoder_month106_A: phony || CMakeFiles/newcoder_month106_A.dir
+
+build CMakeFiles/newcoder_month106_A.dir/Practice/newcoder_month106_A.cpp.obj: CXX_COMPILER__newcoder_month106_A_unscanned_Debug D$:/software/ClionProjects/Algorithm/Practice/newcoder_month106_A.cpp || cmake_object_order_depends_target_newcoder_month106_A
+  DEP_FILE = CMakeFiles\newcoder_month106_A.dir\Practice\newcoder_month106_A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\newcoder_month106_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\newcoder_month106_A.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target newcoder_month106_A
+
+
+#############################################
+# Link the executable newcoder_month106_A.exe
+
+build newcoder_month106_A.exe: CXX_EXECUTABLE_LINKER__newcoder_month106_A_Debug CMakeFiles/newcoder_month106_A.dir/Practice/newcoder_month106_A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\newcoder_month106_A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = newcoder_month106_A.exe
+  TARGET_IMPLIB = libnewcoder_month106_A.dll.a
+  TARGET_PDB = newcoder_month106_A.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01package
 
 
@@ -470,6 +503,105 @@ build aaa.exe: CXX_EXECUTABLE_LINKER__aaa_Debug CMakeFiles/aaa.dir/algorithm-hom
   TARGET_PDB = aaa.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target expend-01package
+
+
+#############################################
+# Order-only phony target for expend-01package
+
+build cmake_object_order_depends_target_expend-01package: phony || CMakeFiles/expend-01package.dir
+
+build CMakeFiles/expend-01package.dir/algorithm-homework/expend-01package.cpp.obj: CXX_COMPILER__expend-01package_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/expend-01package.cpp || cmake_object_order_depends_target_expend-01package
+  DEP_FILE = CMakeFiles\expend-01package.dir\algorithm-homework\expend-01package.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\expend-01package.dir
+  OBJECT_FILE_DIR = CMakeFiles\expend-01package.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target expend-01package
+
+
+#############################################
+# Link the executable expend-01package.exe
+
+build expend-01package.exe: CXX_EXECUTABLE_LINKER__expend-01package_Debug CMakeFiles/expend-01package.dir/algorithm-homework/expend-01package.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\expend-01package.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = expend-01package.exe
+  TARGET_IMPLIB = libexpend-01package.dll.a
+  TARGET_PDB = expend-01package.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target newcoder_month107a
+
+
+#############################################
+# Order-only phony target for newcoder_month107a
+
+build cmake_object_order_depends_target_newcoder_month107a: phony || CMakeFiles/newcoder_month107a.dir
+
+build CMakeFiles/newcoder_month107a.dir/algorithm-homework/newcoder_month107a.cpp.obj: CXX_COMPILER__newcoder_month107a_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/newcoder_month107a.cpp || cmake_object_order_depends_target_newcoder_month107a
+  DEP_FILE = CMakeFiles\newcoder_month107a.dir\algorithm-homework\newcoder_month107a.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\newcoder_month107a.dir
+  OBJECT_FILE_DIR = CMakeFiles\newcoder_month107a.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target newcoder_month107a
+
+
+#############################################
+# Link the executable newcoder_month107a.exe
+
+build newcoder_month107a.exe: CXX_EXECUTABLE_LINKER__newcoder_month107a_Debug CMakeFiles/newcoder_month107a.dir/algorithm-homework/newcoder_month107a.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\newcoder_month107a.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = newcoder_month107a.exe
+  TARGET_IMPLIB = libnewcoder_month107a.dll.a
+  TARGET_PDB = newcoder_month107a.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target newcoder_month107b
+
+
+#############################################
+# Order-only phony target for newcoder_month107b
+
+build cmake_object_order_depends_target_newcoder_month107b: phony || CMakeFiles/newcoder_month107b.dir
+
+build CMakeFiles/newcoder_month107b.dir/algorithm-homework/newcoder_month107b.cpp.obj: CXX_COMPILER__newcoder_month107b_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/newcoder_month107b.cpp || cmake_object_order_depends_target_newcoder_month107b
+  DEP_FILE = CMakeFiles\newcoder_month107b.dir\algorithm-homework\newcoder_month107b.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\newcoder_month107b.dir
+  OBJECT_FILE_DIR = CMakeFiles\newcoder_month107b.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target newcoder_month107b
+
+
+#############################################
+# Link the executable newcoder_month107b.exe
+
+build newcoder_month107b.exe: CXX_EXECUTABLE_LINKER__newcoder_month107b_Debug CMakeFiles/newcoder_month107b.dir/algorithm-homework/newcoder_month107b.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\newcoder_month107b.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = newcoder_month107b.exe
+  TARGET_IMPLIB = libnewcoder_month107b.dll.a
+  TARGET_PDB = newcoder_month107b.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target nowcoder_month103_A
 
 
@@ -534,6 +666,105 @@ build nowcoder_month103_B.exe: CXX_EXECUTABLE_LINKER__nowcoder_month103_B_Debug 
   TARGET_FILE = nowcoder_month103_B.exe
   TARGET_IMPLIB = libnowcoder_month103_B.dll.a
   TARGET_PDB = nowcoder_month103_B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target e1
+
+
+#############################################
+# Order-only phony target for e1
+
+build cmake_object_order_depends_target_e1: phony || CMakeFiles/e1.dir
+
+build CMakeFiles/e1.dir/basical-practice/e1.cpp.obj: CXX_COMPILER__e1_unscanned_Debug D$:/software/ClionProjects/Algorithm/basical-practice/e1.cpp || cmake_object_order_depends_target_e1
+  DEP_FILE = CMakeFiles\e1.dir\basical-practice\e1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\e1.dir
+  OBJECT_FILE_DIR = CMakeFiles\e1.dir\basical-practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e1
+
+
+#############################################
+# Link the executable e1.exe
+
+build e1.exe: CXX_EXECUTABLE_LINKER__e1_Debug CMakeFiles/e1.dir/basical-practice/e1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\e1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = e1.exe
+  TARGET_IMPLIB = libe1.dll.a
+  TARGET_PDB = e1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target e2
+
+
+#############################################
+# Order-only phony target for e2
+
+build cmake_object_order_depends_target_e2: phony || CMakeFiles/e2.dir
+
+build CMakeFiles/e2.dir/basical-practice/e2.cpp.obj: CXX_COMPILER__e2_unscanned_Debug D$:/software/ClionProjects/Algorithm/basical-practice/e2.cpp || cmake_object_order_depends_target_e2
+  DEP_FILE = CMakeFiles\e2.dir\basical-practice\e2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\e2.dir
+  OBJECT_FILE_DIR = CMakeFiles\e2.dir\basical-practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e2
+
+
+#############################################
+# Link the executable e2.exe
+
+build e2.exe: CXX_EXECUTABLE_LINKER__e2_Debug CMakeFiles/e2.dir/basical-practice/e2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\e2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = e2.exe
+  TARGET_IMPLIB = libe2.dll.a
+  TARGET_PDB = e2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target e3
+
+
+#############################################
+# Order-only phony target for e3
+
+build cmake_object_order_depends_target_e3: phony || CMakeFiles/e3.dir
+
+build CMakeFiles/e3.dir/basical-practice/e3.cpp.obj: CXX_COMPILER__e3_unscanned_Debug D$:/software/ClionProjects/Algorithm/basical-practice/e3.cpp || cmake_object_order_depends_target_e3
+  DEP_FILE = CMakeFiles\e3.dir\basical-practice\e3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\e3.dir
+  OBJECT_FILE_DIR = CMakeFiles\e3.dir\basical-practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e3
+
+
+#############################################
+# Link the executable e3.exe
+
+build e3.exe: CXX_EXECUTABLE_LINKER__e3_Debug CMakeFiles/e3.dir/basical-practice/e3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\e3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = e3.exe
+  TARGET_IMPLIB = libe3.dll.a
+  TARGET_PDB = e3.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -688,7 +919,21 @@ build TriominoPuzzle: phony TriominoPuzzle.exe
 
 build aaa: phony aaa.exe
 
+build e1: phony e1.exe
+
+build e2: phony e2.exe
+
+build e3: phony e3.exe
+
+build expend-01package: phony expend-01package.exe
+
 build hello: phony hello.exe
+
+build newcoder_month106_A: phony newcoder_month106_A.exe
+
+build newcoder_month107a: phony newcoder_month107a.exe
+
+build newcoder_month107b: phony newcoder_month107b.exe
 
 build nowcoder_month103_A: phony nowcoder_month103_A.exe
 
@@ -704,7 +949,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/software/ClionProjects/Algorithm/cmake-build-debug
 
-build all: phony 01package.exe B3653.exe BinarySearchAndMergeSort.exe CountingInversionProblem.exe OilWells.exe P1009.exe P1271.exe T1428.exe T528356_A.exe T528356_C.exe T528357_B.exe TriominoPuzzle.exe aaa.exe nowcoder_month103_A.exe nowcoder_month103_B.exe CMakeCXXCompilerId.exe hello.exe test.exe
+build all: phony newcoder_month106_A.exe 01package.exe B3653.exe BinarySearchAndMergeSort.exe CountingInversionProblem.exe OilWells.exe P1009.exe P1271.exe T1428.exe T528356_A.exe T528356_C.exe T528357_B.exe TriominoPuzzle.exe aaa.exe expend-01package.exe newcoder_month107a.exe newcoder_month107b.exe nowcoder_month103_A.exe nowcoder_month103_B.exe e1.exe e2.exe e3.exe CMakeCXXCompilerId.exe hello.exe test.exe
 
 # =============================================================================
 # Built-in targets

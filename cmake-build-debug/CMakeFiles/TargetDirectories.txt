@@ -1,3 +1,4 @@
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/newcoder_month106_A.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/01package.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/B3653.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/BinarySearchAndMergeSort.dir
@@ -11,8 +12,14 @@ D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/T528356_C.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/T528357_B.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/TriominoPuzzle.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/aaa.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/expend-01package.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/newcoder_month107a.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/newcoder_month107b.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/nowcoder_month103_A.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/nowcoder_month103_B.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/e1.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/e2.dir
+D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/e3.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/hello.dir
 D:/software/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles/test.dir

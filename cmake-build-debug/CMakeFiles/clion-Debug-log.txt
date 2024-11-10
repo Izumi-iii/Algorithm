@@ -1,4 +1,5 @@
 "D:\software\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/software/CLion 2024.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\software\ClionProjects\Algorithm -B D:\software\ClionProjects\Algorithm\cmake-build-debug
+    -- src/newcoder_month106_A.cpp will be compiled to bin/newcoder_month106_A
     -- src/01package.cpp will be compiled to bin/01package
     -- src/B3653.cpp will be compiled to bin/B3653
     -- src/BinarySearchAndMergeSort.cpp will be compiled to bin/BinarySearchAndMergeSort
@@ -12,11 +13,17 @@
     -- src/T528357_B.cpp will be compiled to bin/T528357_B
     -- src/TriominoPuzzle.cpp will be compiled to bin/TriominoPuzzle
     -- src/aaa.cpp will be compiled to bin/aaa
+    -- src/expend-01package.cpp will be compiled to bin/expend-01package
+    -- src/newcoder_month107a.cpp will be compiled to bin/newcoder_month107a
+    -- src/newcoder_month107b.cpp will be compiled to bin/newcoder_month107b
     -- src/nowcoder_month103_A.cpp will be compiled to bin/nowcoder_month103_A
     -- src/nowcoder_month103_B.cpp will be compiled to bin/nowcoder_month103_B
+    -- src/e1.cpp will be compiled to bin/e1
+    -- src/e2.cpp will be compiled to bin/e2
+    -- src/e3.cpp will be compiled to bin/e3
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/hello.cpp will be compiled to bin/hello
     -- src/test.cpp will be compiled to bin/test
--- Configuring done (0.5s)
+-- Configuring done (1.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/software/ClionProjects/Algorithm/cmake-build-debug
