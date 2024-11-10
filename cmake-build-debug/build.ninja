@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/software/ClionProjects/Algorithm/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 01package
+
+
+#############################################
+# Order-only phony target for 01package
+
+build cmake_object_order_depends_target_01package: phony || CMakeFiles/01package.dir
+
+build CMakeFiles/01package.dir/algorithm-homework/01package.cpp.obj: CXX_COMPILER__01package_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/01package.cpp || cmake_object_order_depends_target_01package
+  DEP_FILE = CMakeFiles\01package.dir\algorithm-homework\01package.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01package.dir
+  OBJECT_FILE_DIR = CMakeFiles\01package.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01package
+
+
+#############################################
+# Link the executable 01package.exe
+
+build 01package.exe: CXX_EXECUTABLE_LINKER__01package_Debug CMakeFiles/01package.dir/algorithm-homework/01package.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01package.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01package.exe
+  TARGET_IMPLIB = lib01package.dll.a
+  TARGET_PDB = 01package.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target B3653
 
 
@@ -74,6 +107,39 @@ build B3653.exe: CXX_EXECUTABLE_LINKER__B3653_Debug CMakeFiles/B3653.dir/algorit
   TARGET_PDB = B3653.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target BinarySearchAndMergeSort
+
+
+#############################################
+# Order-only phony target for BinarySearchAndMergeSort
+
+build cmake_object_order_depends_target_BinarySearchAndMergeSort: phony || CMakeFiles/BinarySearchAndMergeSort.dir
+
+build CMakeFiles/BinarySearchAndMergeSort.dir/algorithm-homework/BinarySearchAndMergeSort.cpp.obj: CXX_COMPILER__BinarySearchAndMergeSort_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/BinarySearchAndMergeSort.cpp || cmake_object_order_depends_target_BinarySearchAndMergeSort
+  DEP_FILE = CMakeFiles\BinarySearchAndMergeSort.dir\algorithm-homework\BinarySearchAndMergeSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BinarySearchAndMergeSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\BinarySearchAndMergeSort.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BinarySearchAndMergeSort
+
+
+#############################################
+# Link the executable BinarySearchAndMergeSort.exe
+
+build BinarySearchAndMergeSort.exe: CXX_EXECUTABLE_LINKER__BinarySearchAndMergeSort_Debug CMakeFiles/BinarySearchAndMergeSort.dir/algorithm-homework/BinarySearchAndMergeSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BinarySearchAndMergeSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BinarySearchAndMergeSort.exe
+  TARGET_IMPLIB = libBinarySearchAndMergeSort.dll.a
+  TARGET_PDB = BinarySearchAndMergeSort.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CountingInversionProblem
 
 
@@ -105,6 +171,72 @@ build CountingInversionProblem.exe: CXX_EXECUTABLE_LINKER__CountingInversionProb
   TARGET_FILE = CountingInversionProblem.exe
   TARGET_IMPLIB = libCountingInversionProblem.dll.a
   TARGET_PDB = CountingInversionProblem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OilWells
+
+
+#############################################
+# Order-only phony target for OilWells
+
+build cmake_object_order_depends_target_OilWells: phony || CMakeFiles/OilWells.dir
+
+build CMakeFiles/OilWells.dir/algorithm-homework/OilWells.cpp.obj: CXX_COMPILER__OilWells_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/OilWells.cpp || cmake_object_order_depends_target_OilWells
+  DEP_FILE = CMakeFiles\OilWells.dir\algorithm-homework\OilWells.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OilWells.dir
+  OBJECT_FILE_DIR = CMakeFiles\OilWells.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OilWells
+
+
+#############################################
+# Link the executable OilWells.exe
+
+build OilWells.exe: CXX_EXECUTABLE_LINKER__OilWells_Debug CMakeFiles/OilWells.dir/algorithm-homework/OilWells.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OilWells.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OilWells.exe
+  TARGET_IMPLIB = libOilWells.dll.a
+  TARGET_PDB = OilWells.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P1009
+
+
+#############################################
+# Order-only phony target for P1009
+
+build cmake_object_order_depends_target_P1009: phony || CMakeFiles/P1009.dir
+
+build CMakeFiles/P1009.dir/algorithm-homework/P1009.cpp.obj: CXX_COMPILER__P1009_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/P1009.cpp || cmake_object_order_depends_target_P1009
+  DEP_FILE = CMakeFiles\P1009.dir\algorithm-homework\P1009.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\P1009.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1009.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1009
+
+
+#############################################
+# Link the executable P1009.exe
+
+build P1009.exe: CXX_EXECUTABLE_LINKER__P1009_Debug CMakeFiles/P1009.dir/algorithm-homework/P1009.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P1009.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P1009.exe
+  TARGET_IMPLIB = libP1009.dll.a
+  TARGET_PDB = P1009.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target P1271
@@ -338,6 +470,72 @@ build aaa.exe: CXX_EXECUTABLE_LINKER__aaa_Debug CMakeFiles/aaa.dir/algorithm-hom
   TARGET_PDB = aaa.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target nowcoder_month103_A
+
+
+#############################################
+# Order-only phony target for nowcoder_month103_A
+
+build cmake_object_order_depends_target_nowcoder_month103_A: phony || CMakeFiles/nowcoder_month103_A.dir
+
+build CMakeFiles/nowcoder_month103_A.dir/algorithm-homework/nowcoder_month103_A.cpp.obj: CXX_COMPILER__nowcoder_month103_A_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/nowcoder_month103_A.cpp || cmake_object_order_depends_target_nowcoder_month103_A
+  DEP_FILE = CMakeFiles\nowcoder_month103_A.dir\algorithm-homework\nowcoder_month103_A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\nowcoder_month103_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\nowcoder_month103_A.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nowcoder_month103_A
+
+
+#############################################
+# Link the executable nowcoder_month103_A.exe
+
+build nowcoder_month103_A.exe: CXX_EXECUTABLE_LINKER__nowcoder_month103_A_Debug CMakeFiles/nowcoder_month103_A.dir/algorithm-homework/nowcoder_month103_A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\nowcoder_month103_A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = nowcoder_month103_A.exe
+  TARGET_IMPLIB = libnowcoder_month103_A.dll.a
+  TARGET_PDB = nowcoder_month103_A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target nowcoder_month103_B
+
+
+#############################################
+# Order-only phony target for nowcoder_month103_B
+
+build cmake_object_order_depends_target_nowcoder_month103_B: phony || CMakeFiles/nowcoder_month103_B.dir
+
+build CMakeFiles/nowcoder_month103_B.dir/algorithm-homework/nowcoder_month103_B.cpp.obj: CXX_COMPILER__nowcoder_month103_B_unscanned_Debug D$:/software/ClionProjects/Algorithm/algorithm-homework/nowcoder_month103_B.cpp || cmake_object_order_depends_target_nowcoder_month103_B
+  DEP_FILE = CMakeFiles\nowcoder_month103_B.dir\algorithm-homework\nowcoder_month103_B.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\nowcoder_month103_B.dir
+  OBJECT_FILE_DIR = CMakeFiles\nowcoder_month103_B.dir\algorithm-homework
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nowcoder_month103_B
+
+
+#############################################
+# Link the executable nowcoder_month103_B.exe
+
+build nowcoder_month103_B.exe: CXX_EXECUTABLE_LINKER__nowcoder_month103_B_Debug CMakeFiles/nowcoder_month103_B.dir/algorithm-homework/nowcoder_month103_B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\nowcoder_month103_B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = nowcoder_month103_B.exe
+  TARGET_IMPLIB = libnowcoder_month103_B.dll.a
+  TARGET_PDB = nowcoder_month103_B.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
@@ -462,11 +660,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 01package: phony 01package.exe
+
 build B3653: phony B3653.exe
+
+build BinarySearchAndMergeSort: phony BinarySearchAndMergeSort.exe
 
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build CountingInversionProblem: phony CountingInversionProblem.exe
+
+build OilWells: phony OilWells.exe
+
+build P1009: phony P1009.exe
 
 build P1271: phony P1271.exe
 
@@ -484,6 +690,10 @@ build aaa: phony aaa.exe
 
 build hello: phony hello.exe
 
+build nowcoder_month103_A: phony nowcoder_month103_A.exe
+
+build nowcoder_month103_B: phony nowcoder_month103_B.exe
+
 build test: phony test.exe
 
 # =============================================================================
@@ -494,7 +704,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/software/ClionProjects/Algorithm/cmake-build-debug
 
-build all: phony B3653.exe CountingInversionProblem.exe P1271.exe T1428.exe T528356_A.exe T528356_C.exe T528357_B.exe TriominoPuzzle.exe aaa.exe CMakeCXXCompilerId.exe hello.exe test.exe
+build all: phony 01package.exe B3653.exe BinarySearchAndMergeSort.exe CountingInversionProblem.exe OilWells.exe P1009.exe P1271.exe T1428.exe T528356_A.exe T528356_C.exe T528357_B.exe TriominoPuzzle.exe aaa.exe nowcoder_month103_A.exe nowcoder_month103_B.exe CMakeCXXCompilerId.exe hello.exe test.exe
 
 # =============================================================================
 # Built-in targets
