@@ -1,15 +1,35 @@
-#include "iostream"
-using namespace std;
+#include <stdio.h>
+#include <math.h>
+int main(){
+    int m,n;
+    scanf("%d %d",&m,&n);
+    if(m>n){
+        int temp=m;
+        m=n;
+        n=temp;
+    }
+    int f=1;
+    for(int i=m;i<=n;i++){
+        if(i<2){
+            continue;
+        }
+        int is_prime=1;
+        int limit = (int)sqrt(i);
 
-int main() {
-    int arr[]={1,2,3,4,5,6,7,8};
-    int *p=arr;
-    int max = *p;
-    for (int i = 1; i < 8; ++i) {
-        if (max < *(p+i)){
-            max = *(p+i);
+        for(int j=2;j<=limit;j++){
+            if(i%j==0){
+                is_prime=0;
+                break;
+            }
+        }
+        if(is_prime){
+            if(!f){
+                printf(" ");
+            }
+            printf("%d",i);
+            f=0;
         }
     }
-    cout << max << endl;
+
     return 0;
 }
